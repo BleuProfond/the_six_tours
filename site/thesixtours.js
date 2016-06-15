@@ -1,3 +1,5 @@
+var quote = require('./lib/quote.js');
+
 var express = require('express');
 
 var app = express();
@@ -17,7 +19,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/about', function(req, res){
-  res.render('about');
+  res.render('about', { quote: quote.getQuote() });
 });
 
 // custom 404 page
@@ -37,3 +39,4 @@ app.listen(app.get('port'), function(){
   console.log( 'Express started on http://localhost:' +
     app.get('port') + '; press Ctrl-C to terminate.' );
 });
+
