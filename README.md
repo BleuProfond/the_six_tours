@@ -16,7 +16,7 @@ npm start
 
 4. Go to localhost:8080 through your browser.
 
-## Test Mode
+##### Test Mode
 
 Add the querystring '?test=1' to any route to run the tests for that page and show the results to user.
 
