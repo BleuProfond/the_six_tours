@@ -9,8 +9,10 @@ git clone https://github.com/BleuProfond/the_six_tours
 3. cd into the root directory and type the following commands
 >
 cd site
->npm install
->npm start
+>
+npm install
+>
+npm start
 
 4. Go to localhost:8080 through your browser.
 
