@@ -21,6 +21,7 @@
     "nodemon": "^1.9.2"
   },
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "zombie": "^4.2.1"
   }
 }
