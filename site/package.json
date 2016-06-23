@@ -1,21 +1,26 @@
 {
   "name": "the_six_tours",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Toronto travel site that uses Node.js as a framework",
   "main": "thesixtours.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon thesixtours.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BleuProfond/the_six_tours.git"
+  },
+  "author": "Peter de Verteuil",
+  "license": "GPL, MIT",
+  "homepage": "https://github.com/BleuProfond/the_six_tours",
   "dependencies": {
-    "express": "^4.13.4",
-    "express-handlebars": "^3.0.0"
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.9.2"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.5.3",
-    "nodemon": "^1.9.2"
+    "mocha": "^2.5.3"
   }
 }

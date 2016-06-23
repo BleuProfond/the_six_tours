@@ -31,6 +31,14 @@ app.get('/about', function(req, res){
   });
 });
 
+app.get('/tours/queen-west', function(req, res){
+  res.render('tours/queen-west');
+});
+
+app.get('/tours/request-group-rate', function(req, res){
+  res.render('tours/request-group-rate');
+});
+
 // custom 404 page
 app.use(function(req, res, next){
   res.status(404);
