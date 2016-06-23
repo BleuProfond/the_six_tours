@@ -4,7 +4,7 @@
 
 2. Run the following command on your terminal
 >
-git clone https://github.com/BleuProfond/the_six_tours
+git clone https://github.com/PierreDV/the_six_tours
 
 3. cd into the root directory and type the following commands
 >
@@ -22,4 +22,4 @@ Add the querystring '?test=1' to any route to run the tests for that page and sh
 
 ####General Notes on Node
 
-In Express the order in which the routes and middleware are added is significant. 
+In Express the order in which the routes and middleware are added is significant.

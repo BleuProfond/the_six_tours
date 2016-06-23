@@ -25,7 +25,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/about', function(req, res){
-  res.render('about', { 
+  res.render('about', {
     quote: quote.getQuote(),
     pageTestScript: '/qa/tests-about.js'
   });
@@ -56,4 +56,3 @@ app.listen(app.get('port'), function(){
   console.log( 'Express started on http://localhost:' +
     app.get('port') + '; press Ctrl-C to terminate.' );
 });
-
